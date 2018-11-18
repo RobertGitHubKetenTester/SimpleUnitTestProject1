@@ -15,7 +15,7 @@ Scenario: Maak rekeningen en doe een transactie
 Scenario: Maak andere rekeningen en doe een transactie
 	Given Ik stort 200 op een eerste rekening
 	And  Ik stort 150 op een tweede rekening
-	When Ik maak 20 over tussen deze rekeningen
+	When Ik maak 40 over tussen deze rekeningen
 	And ik vraag de respectieve saldi op
-	Then zijn deze saldi 180 en 170
+	Then zijn deze saldi 160 en 190
 
