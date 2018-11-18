@@ -103,11 +103,11 @@ this.ScenarioInitialize(scenarioInfo);
 #line 17
  testRunner.And("Ik stort 150 op een tweede rekening", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 18
- testRunner.When("Ik maak 20 over tussen deze rekeningen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("Ik maak 40 over tussen deze rekeningen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 19
  testRunner.And("ik vraag de respectieve saldi op", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 20
- testRunner.Then("zijn deze saldi 180 en 170", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("zijn deze saldi 160 en 190", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
